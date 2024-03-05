@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the data from the Excel file
-input_excel_file_path = r"C:\Users\afshi\Documents\GitHub\immo-eliza-DAMI-analysis\data\cleaned\cleanedexcel_immo_77k-2.xlsx"
+input_excel_file_path = r"C:\Users\afshi\Documents\GitHub\immo-eliza-DAMI-analysis\data\cleaned\version 3 data.xlsx"
 try:
     df = pd.read_excel(input_excel_file_path)
 except Exception as e:
@@ -22,10 +22,10 @@ def categorize_furnished(isFurnished):
 df['Furnished Category'] = df['isFurnished'].apply(categorize_furnished)
 
 # Calculate price per meter
-#df['Price per Meter'] = df['price_main'] / df['surface']
+df['Price per Meter'] = df['price_main'] / df['surface']
 
 # Group by condition category and calculate mean price per meter
-price_per_meter_category = df.groupby('Furnished Category')['price_main'].mean()
+price_per_meter_category = df.groupby('Furnished Category')['Price per Meter'].mean()
 
 # Convert the index to strings
 price_per_meter_category.index = price_per_meter_category.index.astype(str)
@@ -39,7 +39,7 @@ else:
     # Plot the bar plot if the DataFrame is valid
     plt.figure(figsize=(10, 6))
     price_per_meter_category.plot(kind='bar', color='skyblue')
-    plt.title('Average Price  for Furnished/non furnished status Category of Home')
+    plt.title('Average Price per meter for Furnished/non furnished status Category of Home')
     plt.xlabel(' Furnished Category')
     plt.ylabel('Average Price ')
     plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
