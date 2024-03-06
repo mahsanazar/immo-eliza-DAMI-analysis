@@ -1,19 +1,26 @@
 # immo-eliza-DAMI-analysis
 # Goal
 The goal of this project is to analyze real estate data from Immoweb and derive insights that can inform decision-making processes related to property investment, market trends, and pricing strategies. We aim to explore various aspects of the real estate market, identify patterns and correlations in the data, and present our findings in a clear and actionable manner.
-# Repo Structure
-├── analysis: 
-│   └── different analysis on data
+# Structure
+.
+
 │       
 ├── data/
 │   ├── clean/
+│   │   └── cleaned_data.csv
 │   └── raw/
-│       └── row_immoweb_data0403.csv
+│       └── raw_immoweb_data0403.csv
 │
-├── clean.py
-│   
-|
+├── analysis
+│   ├── visualizations.py
+│
+├── insights
+│   └── visualization_pics/
+│
+├── .gitignore
 ├── README.md
+
+
 
 # Installation
 To clone the repository, run:
@@ -48,7 +55,7 @@ The folder of Visuals include several pictures from visualizations of diffrent a
 This project took 5 days for completion.
 
 # Comment
-This project was done as part of the AI Bootcamp at BeCode.org.and It was done as a teamwork by Mahsa
+This project was done as part of the AI Bootcamp at BeCode.org. It was done as a teamwork by Mahsa,
 Daryoush , Ariana , Ivan
 # Improvement
 As an improvement, I attempted to upload a single notebook initially, but encountered technical difficulties that prevented it from being pushed to the repository. Therefore, I had to split the files and analysis into separate directories to facilitate successful uploading and sharing of the project files.
