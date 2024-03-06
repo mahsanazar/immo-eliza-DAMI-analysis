@@ -4,21 +4,18 @@ The goal of this project is to analyze real estate data from Immoweb and derive 
 # Structure
 .
 
-│       
-├── data/
-│   ├── clean/
-│   │   └── cleaned_data.csv
-│   └── raw/
-│       └── raw_immoweb_data0403.csv
-│
-├── analysis
-│   ├── visualizations.py
-│
-├── insights
-│   └── visualization_pics/
-│
-├── .gitignore
-├── README.md
+1. data: This directory contains two subdirectories:
+
+      cleaned_data.csv: This file stores the cleaned data.
+      raw_data.csv: This file stores the raw data.
+2. analysis: This directory contains Python files (*.py) for different analyses:
+
+      These files contain Python code for various analyses.
+3. insights: This directory contains:
+
+     insights_pics: This subdirectory stores pictures of insights generated during the analysis. For example, if you have visualizations, they can be stored here.
+
+4. README.md: This file provides an overview of the repository, including details about the data, analyses, insights, and any other relevant information.
 
 
 
