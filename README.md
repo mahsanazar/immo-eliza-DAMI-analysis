@@ -3,7 +3,7 @@
 
 ## Description
 
-This notebook shows the analysis
+This notebook shows the analysis of the houses and apartments in the top 30 cities in
 
 ![Alt text](src/House_analysis_2.png)
 
