@@ -11,9 +11,9 @@ The goal of this project is to analyze real estate data from Immoweb and derive 
 2. analysis: This directory contains Python files (*.py) for different analyses:
 
       These files contain Python code for various analyses.
-3. insights: This directory contains:
+3. insights: 
 
-     insights_pics: This subdirectory stores pictures of insights generated during the analysis. For example, if you have visualizations, they can be stored here.
+      This subdirectory stores pictures of insights generated during the analysis. For example, if you have visualizations, they can be stored here.
 
 4. README.md: This file provides an overview of the repository, including details about the data, analyses, insights, and any other relevant information.
 
