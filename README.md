@@ -63,9 +63,6 @@ To use this repository, follow these steps:
 ## 📑 Sources
 - [Immoweb](https://www.immoweb.be/en) - Real estate website from which data is scraped.
 
-## 📸 Visuals
-
-
 
 ## 👥 Team
 - Ariana
