@@ -56,5 +56,7 @@ This project was done as part of the AI Bootcamp at BeCode.org. It was done as a
 Daryoush , Ariana , Ivan
 # Improvement
 As an improvement, I attempted to upload a single notebook initially, but encountered technical difficulties that prevented it from being pushed to the repository. Therefore, I had to split the files and analysis into separate directories to facilitate successful uploading and sharing of the project files.
-
+# Presentation 
+Here you can find a presentation of our job :
+https://www.canva.com/design/DAF-rNo-dV8/w2bWENWhWq9CWquh41nTyA/edit
 
